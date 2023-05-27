@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.ngu.service.querry.QuerryHikeSpecial">
+  <grid id="27dc6" binding="querryHikePanel" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="763" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="be193" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Получить перечень и общее число маpшpутов"/>
+        </properties>
+      </component>
+      <component id="85f77" class="javax.swing.JTextArea" binding="taAnswer">
+        <constraints>
+          <grid row="1" column="1" row-span="3" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="8a3e3" class="javax.swing.JButton" binding="btnSection">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="103" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Указать из какой секции были туристы"/>
+        </properties>
+      </component>
+      <component id="434d2" class="javax.swing.JButton" binding="btnGroups">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="103" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Указать сколько групп прошло"/>
+        </properties>
+      </component>
+      <component id="3899b" class="javax.swing.JButton" binding="btnCoach">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="103" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Вожатый являяется тренером"/>
+        </properties>
+      </component>
+      <component id="28ac" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="назад"/>
+        </properties>
+      </component>
+      <component id="c8b91" class="javax.swing.JButton" binding="btnStop">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Указать точку остановки"/>
+        </properties>
+      </component>
+      <component id="3fa12" class="javax.swing.JButton" binding="btnLength">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Указать размер"/>
+        </properties>
+      </component>
+      <component id="7616c" class="javax.swing.JButton" binding="btnDifficulty">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Указать сложность"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
